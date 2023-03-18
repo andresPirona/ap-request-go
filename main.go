@@ -1,11 +1,11 @@
 package ap_request_go
 
 import (
-	"github.com/andresPirona/ap-request-go/pkg/app/domain"
-	"github.com/andresPirona/ap-request-go/pkg/app/request"
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/andresPirona/ap-request-go/pkg/app/domain"
+	"github.com/andresPirona/ap-request-go/pkg/app/request"
 	"net/http"
 )
 
