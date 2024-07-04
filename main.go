@@ -11,6 +11,7 @@ import (
 
 // NewRequest Request with response type STRUCT
 //
+// Testing upgrade v2
 // *T* Struct to parse
 // *opts* Request options
 func NewRequest[T any](opts domain.Options) (*T, *http.Response, error) {
